@@ -1,7 +1,7 @@
 {
   "formatVersion": 1,
-  "versionName": "0.1.0-beta.2",
-  "versionCode": 102,
+  "versionName": "0.1.0-beta.3",
+  "versionCode": 103,
   "packageId": "com.tommy.auraandroid",
   "buildType": "release",
   "debuggable": false,
@@ -9,11 +9,11 @@
   "testInfrastructure": false,
   "minSdk": 26,
   "targetSdk": 36,
-  "apkFilename": "Aura-Music-Player-v0.1.0-beta.2.apk",
-  "apkSizeBytes": 68880430,
-  "apkSha256": "e4b7e3938497c8fa8a82bc97c5024ddccf79690ea1912d9189a3cb30e21e4aaa",
+  "apkFilename": "Aura-Music-Player-v0.1.0-beta.3.apk",
+  "apkSizeBytes": 68864166,
+  "apkSha256": "ac24ef95e70d0bbb7f5ed3170309f0aeebc35c61450c8c8b76e66ba82bc5635a",
   "signingCertificateSha256": "d73b50c33e022446320b2961283cd3ba727ec1c8948e94cea96cd5365fb64c9b",
-  "sourceCommit": "9a7cfcdf034a207babc0e74368a6584b4d3e579b",
+  "sourceCommit": "32c3058bbc7142a9cc65493756e724cbff4e9962",
   "sourceAvailability": "private; no application source is distributed in this channel",
   "packagedAbis": [
     "arm64-v8a",
@@ -26,8 +26,7 @@
     "x86_64"
   ],
   "physicalAcceptance": [
-    "Samsung Galaxy S23+ SM-S916U1; Android 16/API 36; ARM64; 4096-byte pages",
-    "Samsung Galaxy A14 5G SM-A146U; Android 15/API 35; ARM64; 4096-byte pages"
+    "Samsung Galaxy S23+ SM-S916U1; Android 16/API 36; ARM64; 4096-byte pages"
   ],
   "qualificationLimit": "32-bit APK native entries belong to other dependencies; embedded Tailcat is qualified only on 64-bit ABIs. No 32-bit Tailcat claim.",
   "tailcatRevision": "7a50a1abd8bca63432afbcc5c04dd278c7029e31",
