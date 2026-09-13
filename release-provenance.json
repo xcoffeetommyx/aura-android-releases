@@ -1,0 +1,38 @@
+{
+  "formatVersion": 1,
+  "versionName": "0.1.0-beta.1",
+  "versionCode": 101,
+  "packageId": "com.tommy.auraandroid",
+  "buildType": "release",
+  "debuggable": false,
+  "privatePki": false,
+  "testInfrastructure": false,
+  "minSdk": 26,
+  "targetSdk": 36,
+  "apkFilename": "Aura-Music-Player-v0.1.0-beta.1.apk",
+  "apkSizeBytes": 68864050,
+  "apkSha256": "6f39dbe327b70b043c3ecc64059b91913fe821291c7de11c514ca9ad6a4fbac5",
+  "signingCertificateSha256": "d73b50c33e022446320b2961283cd3ba727ec1c8948e94cea96cd5365fb64c9b",
+  "sourceCommit": "ca72c845f8825ddbbaabfb3a716a1dc715e8e9ad",
+  "sourceAvailability": "private; no application source is distributed in this channel",
+  "packagedAbis": [
+    "arm64-v8a",
+    "armeabi-v7a",
+    "x86",
+    "x86_64"
+  ],
+  "embeddedTailcatAbis": [
+    "arm64-v8a",
+    "x86_64"
+  ],
+  "physicalAcceptance": [
+    "Samsung Galaxy S23+ SM-S916U1; Android 16/API 36; ARM64; 4096-byte pages"
+  ],
+  "qualificationLimit": "32-bit APK native entries belong to other dependencies; embedded Tailcat is qualified only on 64-bit ABIs. No 32-bit Tailcat claim.",
+  "tailcatRevision": "7a50a1abd8bca63432afbcc5c04dd278c7029e31",
+  "tailscaleRevision": "55d7fa798eed422c58486968bd2ecec0514915e2",
+  "opaqueVersion": "v0.18.0",
+  "nativeGoVersion": "1.27.1",
+  "nativeAarSha256": "bb91e5b8e163efdf882895f2ed9508eb704e6fbd0b572022842b20bad37a5acc",
+  "buildAttestation": "none; local signed build, published checksum and maintainer provenance"
+}
