@@ -8,7 +8,8 @@ metadata, not a source mirror.
 Third-party libraries retain their own licenses and copyrights. The closed-source
 description does not restrict rights those licenses grant. Obtain the accompanying
 third-party notices with the APK; those notices are not application source.
-The separate Aura Server stack has its own public source/licenses.
+The separate Aura Server stack retains its own licenses and is not distributed
+through this Android APK release channel.
 
 No production signing key or signing password is stored here or in GitHub Actions.
 Official releases are signed locally using the maintained Android update identity.
