@@ -1,7 +1,7 @@
 {
   "formatVersion": 1,
-  "versionName": "0.1.0-beta.7",
-  "versionCode": 107,
+  "versionName": "0.1.0-beta.8",
+  "versionCode": 108,
   "packageId": "com.tommy.auraandroid",
   "buildType": "release",
   "debuggable": false,
@@ -9,11 +9,11 @@
   "testInfrastructure": false,
   "minSdk": 26,
   "targetSdk": 36,
-  "apkFilename": "Aura-Music-Player-v0.1.0-beta.7.apk",
+  "apkFilename": "Aura-Music-Player-v0.1.0-beta.8.apk",
   "apkSizeBytes": 68979322,
-  "apkSha256": "2916a2cfeb7016924f45d30ee80a1c1edfb5d50b1467b4f57f7651f3e85d6470",
+  "apkSha256": "16b8a55311acd6c2f367b39b6311b48cec7320a2ba03ae147dc97383e2b21aae",
   "signingCertificateSha256": "d73b50c33e022446320b2961283cd3ba727ec1c8948e94cea96cd5365fb64c9b",
-  "sourceCommit": "ee5e744227a5b0b6ac9acaf217e3a303a43d8911",
+  "sourceCommit": "7777acf907cbaab6afa7c22b33122bfb69a64a50",
   "sourceAvailability": "private; no application source is distributed in this channel",
   "packagedAbis": [
     "arm64-v8a",
@@ -25,16 +25,27 @@
     "arm64-v8a",
     "x86_64"
   ],
-  "physicalAcceptance": [
-    "Samsung Galaxy S23+ and A14: Sessions handoffs and repeated-song transition qualified before version bump",
-    "Samsung Galaxy S23+: downloaded artwork upgraded after offline-to-online reconnection before version bump",
-    "Samsung Galaxy A14: beta.7 signed in-place update; existing app data retained"
-  ],
+  "physicalAcceptance": [],
   "qualificationLimit": "32-bit APK native entries belong to other dependencies; embedded Tailcat is qualified only on 64-bit ABIs. No 32-bit Tailcat claim.",
   "tailcatRevision": "7a50a1abd8bca63432afbcc5c04dd278c7029e31",
   "tailscaleRevision": "55d7fa798eed422c58486968bd2ecec0514915e2",
   "opaqueVersion": "v0.18.0",
   "nativeGoVersion": "1.27.1",
   "nativeAarSha256": "bb91e5b8e163efdf882895f2ed9508eb704e6fbd0b572022842b20bad37a5acc",
-  "buildAttestation": "none; local signed build, published checksum and maintainer provenance"
+  "buildAttestation": "none; local signed build, published checksum and maintainer provenance",
+  "emulatorAcceptance": [
+    "Fresh Android API 36.1 x86_64 emulator: official beta.7 installed and launched",
+    "Signed beta.8 installed over beta.7 without uninstall; original firstInstallTime preserved; MainActivity launch succeeded"
+  ],
+  "validation": {
+    "realRouterOutageReproduced": false,
+    "signerMatchesBeta7": true,
+    "jvmTests": 1315,
+    "physicalDeviceTested": false,
+    "releaseLintErrors": 0,
+    "recoveryRegressionTests": 13,
+    "releaseLintWarnings": 70,
+    "nativeArtifactUnchanged": true
+  },
+  "fieldTestingLimit": "No physical device was connected for this release. Existing account/pairing/download continuity and real Wi-Fi/cellular/router outage recovery require field validation. Recovery regression tests use a deterministic native-client boundary."
 }
